@@ -38,6 +38,42 @@ class Card extends StatelessWidget {
                       fontFamily: 'SpaceMono',
                       letterSpacing: 2),
                 ),
+                Container(
+                  color: Colors.white,
+                  padding: const EdgeInsets.all(5),
+                  margin:
+                      const EdgeInsets.symmetric(vertical: 10, horizontal: 55),
+                  child: Row(
+                    children: const [
+                      Icon(
+                        Icons.phone,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text('+93798795435')
+                    ],
+                  ),
+                ),
+                Container(
+                  color: Colors.white,
+                  padding: const EdgeInsets.all(5),
+                  margin:
+                      const EdgeInsets.symmetric(vertical: 10, horizontal: 55),
+                  child: Row(
+                    children: const [
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text('doe@gmail.com')
+                    ],
+                  ),
+                )
               ],
             ),
           ),
